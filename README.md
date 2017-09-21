@@ -8,4 +8,6 @@ RabbitMQ AMQP client offers a pure RabbitMQ approach over the generic AMQP compo
 
 Maven users will need to add the following dependency to their pom.xml for this component:
 
-URI format
+URI format : rabbitmq://hostname[:port]/exchangeName?[options]
+
+For more details refer : http://camel.apache.org/rabbitmq.html
